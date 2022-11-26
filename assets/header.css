@@ -1,0 +1,72 @@
+#header {
+	display: flex;
+	height: 60px;
+	justify-content: space-between;
+	background-color: #fff;
+	position: sticky;
+	top: 0;
+}
+.left-area {
+	display: flex;
+	align-items: center;
+	width: 205px;
+	padding-left: 30px;
+	margin-right: 20px;
+}
+.left-area i {
+	font-size: 20px;
+	margin-right: 20px;
+}
+.logo-icon {
+	height: 40px;
+}
+.middle-area {
+	display: flex;
+	align-items: center;
+	width: 620px;
+}
+.search-bar {
+	flex: 1;
+	width: 0;
+	height: 40px;
+	font-size: 18px;
+	border-radius: 3px;
+	border: 1px solid grey;
+}
+.search-bar::placeholder {
+	padding-left: 10px;
+	font-size: 18px;
+}
+.search-btn {
+	padding: 9px 23px;
+	margin-right: 10px;
+	margin-left: -1px;
+	border-radius: 3px;
+	border: 1px solid grey;
+}
+.search-voice {
+	padding: 10px 13px;
+	border-radius: 50%;
+	border: grey;
+	margin-right: 20px;
+}
+.search-voice i,
+.search-btn i {
+	font-size: 20px;
+}
+.right-area {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-shrink: 0;
+	width: 220px;
+}
+.right-area img {
+	height: 26px;
+}
+.account-icon img {
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	margin-right: 23px;
+}

@@ -1,0 +1,30 @@
+.menu{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    height: 55px;
+    border-top: 1px solid rgb(223, 222, 222);
+    border-bottom: 1px solid rgb(223, 222, 222);
+    position: sticky;
+    top: 60px;
+
+}
+.menu button{
+    flex-shrink: 0;
+    padding: 8px 13px;
+    font-size: 14px;
+    margin-left: 10px;
+    border-radius: 15px;
+    border: 1px solid rgb(220, 220, 220);
+}
+.menu button:first-child{
+    margin-left: 20px;
+    background-color: black;
+    color: white;
+}
+.menu button:last-child{
+    box-shadow: -40px 0 6px white;
+    border: none;
+    background-color: white;
+    font-size: 18px;
+}
